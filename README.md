@@ -15,6 +15,7 @@ This assignment will test your skills with Appium and your selected language (pr
 1. After you finish, *zip all your source code* and email us back
 
 Extra points for:
+
 1. Page-object pattern
 1. Usage of good code standards
 1. Documentation
