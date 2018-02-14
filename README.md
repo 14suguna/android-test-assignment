@@ -21,3 +21,4 @@ Extra points for:
 1. Usage of good code standards
 1. Documentation
 1. Python (but remember, it's not necessary)
+1. Usage of Saucelabs
