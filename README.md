@@ -16,6 +16,7 @@ This assignment will test your skills with Appium and your selected language (pr
 
 Extra points for:
 
+1. Usage of BDD
 1. Page-object pattern
 1. Usage of good code standards
 1. Documentation
