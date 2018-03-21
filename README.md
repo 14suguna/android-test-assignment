@@ -11,8 +11,8 @@ This assignment will test your skills with Appium and your selected language (pr
     1. Open the App
     1. Search for a subreddit called `"gaming"`
     1. Open the sub-reddit
-    1. Print out the top most post's title
-1. After you finish, *zip all your source code* and email us back
+    1. Verify if the top most post's title contains the word `nintendo`
+1. After you finish, *zip all your source code* and email us back *or* commit to a public github repository
 
 Extra points for:
 
