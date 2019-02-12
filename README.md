@@ -1,24 +1,24 @@
-# Touch Surgery - QA Mobile Assignment
+# Touch Surgery - Android QA Assignment
 
 ---
 
 ## Instructions
 
-This assignment will test your skills with Appium and your selected language (preferably Python).
+This assignment will test your skills with Espresso and your selected language (preferably Kotlin).
 
-1. Download the latest APK of Reddit from `apk4fun.com` [here](https://www.apk4fun.com/apps/com.reddit.frontpage/).
-1. Using Appium, create a script (as complex or simple as you wish) to:
-    1. Open the App
-    1. Search for a subreddit called `"gaming"`
-    1. Open the sub-reddit
-    1. Verify if the top most post's title contains the word `nintendo`
+1. Copy this repository
+1. Build the app to make sure it works fine on an emulator with `API 27`
+1. Using Espresso, create tests (as complex or simple as you wish) that verify the following scenarios:
+    1. Create new items
+    1. Create new items with different priorities
+    1. Delete a specific task
+    1. Delete all the tasks
+    1. Change settings
 1. After you finish, *zip all your source code* and email us back *or* commit to a public github repository
 
-Extra points for:
+### Extra points for:
 
-1. Usage of BDD
-1. Page-object pattern
+1. Robot pattern
 1. Usage of good code standards
 1. Documentation
-1. Python (but remember, it's not necessary)
-1. Usage of Saucelabs
+1. Kotlin (but remember, it's not necessary)
