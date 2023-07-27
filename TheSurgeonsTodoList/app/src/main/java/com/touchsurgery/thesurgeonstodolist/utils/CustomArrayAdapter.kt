@@ -3,14 +3,14 @@ package com.touchsurgery.thesurgeonstodolist.utils
 import android.content.Context
 import android.widget.TextView
 import android.view.ViewGroup
-import android.support.annotation.LayoutRes
+import androidx.annotation.LayoutRes
 import android.view.LayoutInflater
 import android.view.View
 import android.widget.ArrayAdapter
 import com.touchsurgery.thesurgeonstodolist.R
 
 
-class CustomArrayAdapter(private val mContext: Context, @LayoutRes list: ArrayList<Item>) :
+class CustomArrayAdapter(private val mContext: Context, list: ArrayList<Item>) :
     ArrayAdapter<Item>(mContext, 0, list) {
     private var itemList = ArrayList<Item>()
 

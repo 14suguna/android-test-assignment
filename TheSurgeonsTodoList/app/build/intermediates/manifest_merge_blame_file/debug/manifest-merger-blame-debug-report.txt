@@ -1,0 +1,76 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.touchsurgery.thesurgeonstodolist"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="27"
+8-->/Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:3:5-20:19
+12        android:allowBackup="true"
+12-->/Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:4:13-39
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] /Users/orlang3/.gradle/caches/transforms-3/1c36b0c44ea9317121a98336a43f0021/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->/Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:5:13-47
+17        android:label="@string/app_name"
+17-->/Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:6:13-45
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->/Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:7:13-58
+19        android:supportsRtl="true"
+19-->/Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:8:13-39
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme" >
+21-->/Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:9:13-44
+22        <activity
+22-->/Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:10:9-18:20
+23            android:name="com.touchsurgery.thesurgeonstodolist.activities.MainActivity"
+23-->/Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:11:17-56
+24            android:exported="true" >
+24-->/Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:12:17-40
+25            <intent-filter>
+25-->/Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:13:13-17:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:14:17-69
+26-->/Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:14:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:16:17-77
+28-->/Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:16:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity android:name="com.touchsurgery.thesurgeonstodolist.activities.SettingsActivity" />
+31-->/Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:19:9-65
+31-->/Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:19:19-62
+32
+33        <provider
+33-->[androidx.emoji2:emoji2:1.2.0] /Users/orlang3/.gradle/caches/transforms-3/e69add6c23dd116a549faa3674321bed/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+34            android:name="androidx.startup.InitializationProvider"
+34-->[androidx.emoji2:emoji2:1.2.0] /Users/orlang3/.gradle/caches/transforms-3/e69add6c23dd116a549faa3674321bed/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+35            android:authorities="com.touchsurgery.thesurgeonstodolist.androidx-startup"
+35-->[androidx.emoji2:emoji2:1.2.0] /Users/orlang3/.gradle/caches/transforms-3/e69add6c23dd116a549faa3674321bed/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+36            android:exported="false" >
+36-->[androidx.emoji2:emoji2:1.2.0] /Users/orlang3/.gradle/caches/transforms-3/e69add6c23dd116a549faa3674321bed/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+37            <meta-data
+37-->[androidx.emoji2:emoji2:1.2.0] /Users/orlang3/.gradle/caches/transforms-3/e69add6c23dd116a549faa3674321bed/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+38                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+38-->[androidx.emoji2:emoji2:1.2.0] /Users/orlang3/.gradle/caches/transforms-3/e69add6c23dd116a549faa3674321bed/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+39                android:value="androidx.startup" />
+39-->[androidx.emoji2:emoji2:1.2.0] /Users/orlang3/.gradle/caches/transforms-3/e69add6c23dd116a549faa3674321bed/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+40            <meta-data
+40-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/orlang3/.gradle/caches/transforms-3/921a04e5cb02ecbc9ec1c33fe7e4f70c/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+41                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+41-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/orlang3/.gradle/caches/transforms-3/921a04e5cb02ecbc9ec1c33fe7e4f70c/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+42                android:value="androidx.startup" />
+42-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/orlang3/.gradle/caches/transforms-3/921a04e5cb02ecbc9ec1c33fe7e4f70c/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+43        </provider>
+44    </application>
+45
+46</manifest>

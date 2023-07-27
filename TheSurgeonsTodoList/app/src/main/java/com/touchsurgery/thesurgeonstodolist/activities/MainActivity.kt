@@ -2,11 +2,11 @@ package com.touchsurgery.thesurgeonstodolist.activities
 
 import android.content.Intent
 import android.os.Bundle
-import android.support.design.widget.FloatingActionButton
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
-import android.support.v7.widget.Toolbar
+import androidx.appcompat.widget.Toolbar
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.touchsurgery.thesurgeonstodolist.presenter.MainActivityPresenter
 import com.touchsurgery.thesurgeonstodolist.utils.Item
 import com.touchsurgery.thesurgeonstodolist.R

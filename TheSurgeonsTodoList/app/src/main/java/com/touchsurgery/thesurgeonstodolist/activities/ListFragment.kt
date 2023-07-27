@@ -1,15 +1,18 @@
 package com.touchsurgery.thesurgeonstodolist.activities
 
-import android.support.v4.app.Fragment
+import androidx.fragment.app.Fragment
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ListView
+import android.widget.SeekBar
+import android.widget.TextView
 import com.touchsurgery.thesurgeonstodolist.utils.CustomArrayAdapter
 import com.touchsurgery.thesurgeonstodolist.utils.Item
 import com.touchsurgery.thesurgeonstodolist.R
 import com.touchsurgery.thesurgeonstodolist.utils.SharedPreferencesManager
-import kotlinx.android.synthetic.main.fragment_main.*
+import java.util.Locale
 
 class ListFragment : Fragment() {
 
@@ -21,37 +24,36 @@ class ListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        list.setOnItemClickListener { _, _, position, _ ->
+        view.findViewById<ListView>(R.id.list).setOnItemClickListener { _, _, position, _ ->
             (activity as MainActivity).presenter.removeItem(position)
         }
         (activity as MainActivity).fab.show()
     }
 
     fun updateList(arrayList: ArrayList<Item>) {
-        if(arrayList.size > 0) {
-            val prefs = SharedPreferencesManager(context!!)
-            val orderType = prefs.getOrderType()
-            val orderAscending = prefs.getOrderAscending()
-            when (orderType) {
-                SharedPreferencesManager.ORDER_TYPE_NAME -> {
-                    if (orderAscending)
-                        arrayList.sortBy { it.text.toLowerCase() }
-                    else
-                        arrayList.sortByDescending { it.text.toLowerCase() }
-                }
-                SharedPreferencesManager.ORDER_TYPE_PRIORITY -> {
-                    if (orderAscending)
-                        arrayList.sortBy { it.priority }
-                    else
-                        arrayList.sortByDescending { it.priority }
-                }
+        val prefs = SharedPreferencesManager(requireContext())
+        val orderType = prefs.getOrderType()
+        val orderAscending = prefs.getOrderAscending()
+        when (orderType) {
+            SharedPreferencesManager.ORDER_TYPE_NAME -> {
+                if (orderAscending)
+                    arrayList.sortBy { it.text.lowercase(Locale.getDefault()) }
+                else
+                    arrayList.sortByDescending { it.text.lowercase(Locale.getDefault()) }
             }
-            noItemsLabel.visibility = View.GONE
-            adapter = CustomArrayAdapter(context!!, arrayList)
-            list.adapter = adapter
-            adapter.notifyDataSetChanged()
-        } else {
-            noItemsLabel.visibility = View.VISIBLE
+            SharedPreferencesManager.ORDER_TYPE_PRIORITY -> {
+                if (orderAscending)
+                    arrayList.sortBy { it.priority }
+                else
+                    arrayList.sortByDescending { it.priority }
+            }
+        }
+        view?.findViewById<TextView>(R.id.noItemsLabel)?.visibility = View.GONE
+        adapter = CustomArrayAdapter(requireContext(), arrayList)
+        view?.findViewById<ListView>(R.id.list)?.adapter = adapter
+        adapter.notifyDataSetChanged()
+        if(arrayList.size <= 0) {
+            view?.findViewById<TextView>(R.id.noItemsLabel)?.visibility = View.VISIBLE
         }
     }
 

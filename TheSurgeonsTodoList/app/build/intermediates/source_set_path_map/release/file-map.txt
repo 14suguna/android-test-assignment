@@ -1,0 +1,11 @@
+com.touchsurgery.thesurgeonstodolist.app-support-compat-28.0.0-0 /Users/orlang3/.gradle/caches/transforms-3/360d1ba55a28185f41fa4b803e4a2061/transformed/support-compat-28.0.0/res
+com.touchsurgery.thesurgeonstodolist.app-appcompat-v7-28.0.0-1 /Users/orlang3/.gradle/caches/transforms-3/3e31ad8cb90e842636398ecbf9342d2e/transformed/appcompat-v7-28.0.0/res
+com.touchsurgery.thesurgeonstodolist.app-constraint-layout-2.0.4-2 /Users/orlang3/.gradle/caches/transforms-3/63f6f10e52b108019418b85f5d8886a6/transformed/constraint-layout-2.0.4/res
+com.touchsurgery.thesurgeonstodolist.app-coordinatorlayout-28.0.0-3 /Users/orlang3/.gradle/caches/transforms-3/a38e21c918a370790de634a20dcddd1b/transformed/coordinatorlayout-28.0.0/res
+com.touchsurgery.thesurgeonstodolist.app-pngs-4 /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/build/generated/res/pngs/release
+com.touchsurgery.thesurgeonstodolist.app-resValues-5 /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/build/generated/res/resValues/release
+com.touchsurgery.thesurgeonstodolist.app-mergeReleaseResources-6 /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.touchsurgery.thesurgeonstodolist.app-mergeReleaseResources-7 /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.touchsurgery.thesurgeonstodolist.app-merged_res-8 /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/build/intermediates/merged_res/release
+com.touchsurgery.thesurgeonstodolist.app-main-9 /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/res
+com.touchsurgery.thesurgeonstodolist.app-release-10 /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/release/res

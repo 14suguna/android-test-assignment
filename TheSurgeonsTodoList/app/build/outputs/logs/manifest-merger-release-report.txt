@@ -1,0 +1,160 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:1:1-21:12
+INJECTED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:1:1-21:12
+INJECTED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:1:1-21:12
+INJECTED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:1:1-21:12
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] /Users/orlang3/.gradle/caches/transforms-3/63f6f10e52b108019418b85f5d8886a6/transformed/constraint-layout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/3e31ad8cb90e842636398ecbf9342d2e/transformed/appcompat-v7-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/5413473eddef76d370f57a6fef5b1689/transformed/support-fragment-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/b7669743828d9393f164929134f6338c/transformed/animated-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/7dfed860949bc96d173baee870984ba6/transformed/support-core-ui-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/1493c6eb07e7419b1a334dde827259f8/transformed/support-core-utils-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/5d021eb0fc88b70fc367fb75dfccc033/transformed/support-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/485f5af3a5530ca05834047d2fc16cde/transformed/loader-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/e00e2a850ba5d199e4cbf0b6366721c3/transformed/viewpager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/a38e21c918a370790de634a20dcddd1b/transformed/coordinatorlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/e560f10e1ca7a1c1d6af1a3db63ae91e/transformed/drawerlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/9f452a36e2ed4fbf414df4dfaebffd45/transformed/slidingpanelayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/65ca94d7a123d246e5da4be23f3fe4ef/transformed/customview-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/2b83203d18b06c9f6de76fadd7395503/transformed/swiperefreshlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/1c4773871ac1d709c3a1a8fd7c44bb2e/transformed/asynclayoutinflater-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/360d1ba55a28185f41fa4b803e4a2061/transformed/support-compat-28.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/c53cb5b7fef4f130c6fc534318de897e/transformed/versionedparcelable-28.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/9b03361e834b38f08f1f867d10bfbb59/transformed/cursoradapter-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/orlang3/.gradle/caches/transforms-3/808145fa22e48ddc8125db730351fe3c/transformed/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/4e891a39c8c84149d964a63f8927d436/transformed/documentfile-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/0c0e758c28e2341fc0d46f5a6ac901f1/transformed/localbroadcastmanager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/30f8e993421dca1431f1bb1f376a2e00/transformed/print-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/orlang3/.gradle/caches/transforms-3/15a2beba2828ee9cea3387b55c4f84c4/transformed/viewmodel-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/orlang3/.gradle/caches/transforms-3/44ae9daf46fcf679546cbb2c69be40dd/transformed/livedata-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/orlang3/.gradle/caches/transforms-3/4e3a1e2e138ee8d74541a56beccdc8b6/transformed/livedata-core-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/orlang3/.gradle/caches/transforms-3/361927084221cc7563a5f7898fd3e61a/transformed/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/0e76cbb32774fbcae8237a70c65ef25f/transformed/interpolator-28.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:1:1-21:12
+INJECTED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:1:1-21:12
+INJECTED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:1:1-21:12
+	package
+		INJECTED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml
+		ADDED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:1:1-21:12
+		INJECTED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml
+		ADDED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:1:1-21:12
+		INJECTED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml
+		ADDED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:1:1-21:12
+		INJECTED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:3:5-20:19
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] /Users/orlang3/.gradle/caches/transforms-3/63f6f10e52b108019418b85f5d8886a6/transformed/constraint-layout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] /Users/orlang3/.gradle/caches/transforms-3/63f6f10e52b108019418b85f5d8886a6/transformed/constraint-layout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/360d1ba55a28185f41fa4b803e4a2061/transformed/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/360d1ba55a28185f41fa4b803e4a2061/transformed/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/c53cb5b7fef4f130c6fc534318de897e/transformed/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/c53cb5b7fef4f130c6fc534318de897e/transformed/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/360d1ba55a28185f41fa4b803e4a2061/transformed/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:8:13-39
+	android:label
+		ADDED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:6:13-45
+	android:roundIcon
+		ADDED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:7:13-58
+	android:icon
+		ADDED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:5:13-47
+	android:allowBackup
+		ADDED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:4:13-39
+	android:theme
+		ADDED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:9:13-44
+activity#com.touchsurgery.thesurgeonstodolist.activities.MainActivity
+ADDED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:10:9-18:20
+	android:exported
+		ADDED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:12:17-40
+	android:name
+		ADDED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:11:17-56
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:16:27-74
+activity#com.touchsurgery.thesurgeonstodolist.activities.SettingsActivity
+ADDED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:19:9-65
+	android:name
+		ADDED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml:19:19-62
+uses-sdk
+INJECTED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml
+INJECTED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] /Users/orlang3/.gradle/caches/transforms-3/63f6f10e52b108019418b85f5d8886a6/transformed/constraint-layout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] /Users/orlang3/.gradle/caches/transforms-3/63f6f10e52b108019418b85f5d8886a6/transformed/constraint-layout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/3e31ad8cb90e842636398ecbf9342d2e/transformed/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/3e31ad8cb90e842636398ecbf9342d2e/transformed/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/5413473eddef76d370f57a6fef5b1689/transformed/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/5413473eddef76d370f57a6fef5b1689/transformed/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/b7669743828d9393f164929134f6338c/transformed/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/b7669743828d9393f164929134f6338c/transformed/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/7dfed860949bc96d173baee870984ba6/transformed/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/7dfed860949bc96d173baee870984ba6/transformed/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/1493c6eb07e7419b1a334dde827259f8/transformed/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/1493c6eb07e7419b1a334dde827259f8/transformed/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/5d021eb0fc88b70fc367fb75dfccc033/transformed/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/5d021eb0fc88b70fc367fb75dfccc033/transformed/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/485f5af3a5530ca05834047d2fc16cde/transformed/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/485f5af3a5530ca05834047d2fc16cde/transformed/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/e00e2a850ba5d199e4cbf0b6366721c3/transformed/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/e00e2a850ba5d199e4cbf0b6366721c3/transformed/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/a38e21c918a370790de634a20dcddd1b/transformed/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/a38e21c918a370790de634a20dcddd1b/transformed/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/e560f10e1ca7a1c1d6af1a3db63ae91e/transformed/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/e560f10e1ca7a1c1d6af1a3db63ae91e/transformed/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/9f452a36e2ed4fbf414df4dfaebffd45/transformed/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/9f452a36e2ed4fbf414df4dfaebffd45/transformed/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/65ca94d7a123d246e5da4be23f3fe4ef/transformed/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/65ca94d7a123d246e5da4be23f3fe4ef/transformed/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/2b83203d18b06c9f6de76fadd7395503/transformed/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/2b83203d18b06c9f6de76fadd7395503/transformed/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/1c4773871ac1d709c3a1a8fd7c44bb2e/transformed/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/1c4773871ac1d709c3a1a8fd7c44bb2e/transformed/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/360d1ba55a28185f41fa4b803e4a2061/transformed/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/360d1ba55a28185f41fa4b803e4a2061/transformed/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/c53cb5b7fef4f130c6fc534318de897e/transformed/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/c53cb5b7fef4f130c6fc534318de897e/transformed/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/9b03361e834b38f08f1f867d10bfbb59/transformed/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/9b03361e834b38f08f1f867d10bfbb59/transformed/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/orlang3/.gradle/caches/transforms-3/808145fa22e48ddc8125db730351fe3c/transformed/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/orlang3/.gradle/caches/transforms-3/808145fa22e48ddc8125db730351fe3c/transformed/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/4e891a39c8c84149d964a63f8927d436/transformed/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/4e891a39c8c84149d964a63f8927d436/transformed/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/0c0e758c28e2341fc0d46f5a6ac901f1/transformed/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/0c0e758c28e2341fc0d46f5a6ac901f1/transformed/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/30f8e993421dca1431f1bb1f376a2e00/transformed/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/30f8e993421dca1431f1bb1f376a2e00/transformed/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/orlang3/.gradle/caches/transforms-3/15a2beba2828ee9cea3387b55c4f84c4/transformed/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/orlang3/.gradle/caches/transforms-3/15a2beba2828ee9cea3387b55c4f84c4/transformed/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/orlang3/.gradle/caches/transforms-3/44ae9daf46fcf679546cbb2c69be40dd/transformed/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/orlang3/.gradle/caches/transforms-3/44ae9daf46fcf679546cbb2c69be40dd/transformed/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/orlang3/.gradle/caches/transforms-3/4e3a1e2e138ee8d74541a56beccdc8b6/transformed/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/orlang3/.gradle/caches/transforms-3/4e3a1e2e138ee8d74541a56beccdc8b6/transformed/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/orlang3/.gradle/caches/transforms-3/361927084221cc7563a5f7898fd3e61a/transformed/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/orlang3/.gradle/caches/transforms-3/361927084221cc7563a5f7898fd3e61a/transformed/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/0e76cbb32774fbcae8237a70c65ef25f/transformed/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/orlang3/.gradle/caches/transforms-3/0e76cbb32774fbcae8237a70c65ef25f/transformed/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml
+INJECTED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml
+		ADDED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml
+		ADDED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/orlang3/android-test-assignment/TheSurgeonsTodoList/app/src/main/AndroidManifest.xml

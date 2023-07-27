@@ -1,11 +1,13 @@
 package com.touchsurgery.thesurgeonstodolist.activities
 
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v7.widget.Toolbar
+import android.widget.RadioButton
+import android.widget.RadioGroup
+import android.widget.Switch
+import androidx.appcompat.widget.Toolbar
 import com.touchsurgery.thesurgeonstodolist.R
 import com.touchsurgery.thesurgeonstodolist.utils.SharedPreferencesManager
-import kotlinx.android.synthetic.main.activity_settings.*
 
 class SettingsActivity : AppCompatActivity() {
 
@@ -17,21 +19,21 @@ class SettingsActivity : AppCompatActivity() {
         val prefs = SharedPreferencesManager(this)
         val orderType = prefs.getOrderType()
         when(orderType) {
-            SharedPreferencesManager.ORDER_TYPE_NAME -> radioGroup.check(radioSortName.id)
-            SharedPreferencesManager.ORDER_TYPE_PRIORITY -> radioGroup.check(radioSortPriority.id)
+            SharedPreferencesManager.ORDER_TYPE_NAME -> findViewById<RadioGroup>(R.id.radioGroup).check(findViewById<RadioButton>(R.id.radioSortName).id)
+            SharedPreferencesManager.ORDER_TYPE_PRIORITY -> findViewById<RadioGroup>(R.id.radioGroup).check(findViewById<RadioButton>(R.id.radioSortPriority).id)
         }
-        radioGroup.setOnCheckedChangeListener { _, checkedId ->
+        findViewById<RadioGroup>(R.id.radioGroup).setOnCheckedChangeListener { _, checkedId ->
             when(checkedId) {
-                radioSortName.id -> prefs.setOrderType(SharedPreferencesManager.ORDER_TYPE_NAME)
-                radioSortPriority.id -> prefs.setOrderType(SharedPreferencesManager.ORDER_TYPE_PRIORITY)
+                findViewById<RadioButton>(R.id.radioSortName).id -> prefs.setOrderType(SharedPreferencesManager.ORDER_TYPE_NAME)
+                findViewById<RadioButton>(R.id.radioSortPriority).id -> prefs.setOrderType(SharedPreferencesManager.ORDER_TYPE_PRIORITY)
             }
         }
 
         val orderAscending = prefs.getOrderAscending()
-        switchAscending.isChecked = orderAscending
-        switchAscending.text = if(orderAscending) resources.getString(R.string.ascending)
+        findViewById<Switch>(R.id.switchAscending).isChecked = orderAscending
+        findViewById<Switch>(R.id.switchAscending).text = if(orderAscending) resources.getString(R.string.ascending)
         else resources.getString(R.string.descending)
-        switchAscending.setOnCheckedChangeListener{ view, isChecked ->
+        findViewById<Switch>(R.id.switchAscending).setOnCheckedChangeListener{ view, isChecked ->
             view.text = if(isChecked) resources.getString(R.string.ascending)
             else resources.getString(R.string.descending)
             prefs.setOrderAscending(isChecked)
