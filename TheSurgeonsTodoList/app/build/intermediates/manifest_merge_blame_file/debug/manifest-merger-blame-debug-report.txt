@@ -26,51 +26,50 @@
 18-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\src\main\AndroidManifest.xml:7:13-58
 19        android:supportsRtl="true"
 19-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\src\main\AndroidManifest.xml:8:13-39
-20        android:testOnly="true"
-21        android:theme="@style/AppTheme" >
-21-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\src\main\AndroidManifest.xml:9:13-44
-22        <activity
-22-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\src\main\AndroidManifest.xml:10:9-18:20
-23            android:name="com.touchsurgery.thesurgeonstodolist.activities.MainActivity"
-23-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\src\main\AndroidManifest.xml:11:17-56
-24            android:exported="true" >
-24-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\src\main\AndroidManifest.xml:12:17-40
-25            <intent-filter>
-25-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\src\main\AndroidManifest.xml:13:13-17:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\src\main\AndroidManifest.xml:14:17-69
-26-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\src\main\AndroidManifest.xml:14:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\src\main\AndroidManifest.xml:16:17-77
-28-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\src\main\AndroidManifest.xml:16:27-74
-29            </intent-filter>
-30        </activity>
-31        <activity android:name="com.touchsurgery.thesurgeonstodolist.activities.SettingsActivity" />
-31-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\src\main\AndroidManifest.xml:19:9-65
-31-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\src\main\AndroidManifest.xml:19:19-62
-32
-33        <provider
-33-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gokul\.gradle\caches\transforms-3\bef4bbdea89343ed8124913ac1530b57\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-34            android:name="androidx.startup.InitializationProvider"
-34-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gokul\.gradle\caches\transforms-3\bef4bbdea89343ed8124913ac1530b57\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-35            android:authorities="com.touchsurgery.thesurgeonstodolist.androidx-startup"
-35-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gokul\.gradle\caches\transforms-3\bef4bbdea89343ed8124913ac1530b57\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-36            android:exported="false" >
-36-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gokul\.gradle\caches\transforms-3\bef4bbdea89343ed8124913ac1530b57\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-37            <meta-data
-37-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gokul\.gradle\caches\transforms-3\bef4bbdea89343ed8124913ac1530b57\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-38                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-38-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gokul\.gradle\caches\transforms-3\bef4bbdea89343ed8124913ac1530b57\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-39                android:value="androidx.startup" />
-39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gokul\.gradle\caches\transforms-3\bef4bbdea89343ed8124913ac1530b57\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-40            <meta-data
-40-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Gokul\.gradle\caches\transforms-3\c81a50c01ab0bdd6060c7a6762c3f78b\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-41                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-41-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Gokul\.gradle\caches\transforms-3\c81a50c01ab0bdd6060c7a6762c3f78b\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-42                android:value="androidx.startup" />
-42-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Gokul\.gradle\caches\transforms-3\c81a50c01ab0bdd6060c7a6762c3f78b\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-43        </provider>
-44    </application>
-45
-46</manifest>
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\src\main\AndroidManifest.xml:9:13-44
+21        <activity
+21-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\src\main\AndroidManifest.xml:10:9-18:20
+22            android:name="com.touchsurgery.thesurgeonstodolist.activities.MainActivity"
+22-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\src\main\AndroidManifest.xml:11:17-56
+23            android:exported="true" >
+23-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\src\main\AndroidManifest.xml:12:17-40
+24            <intent-filter>
+24-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\src\main\AndroidManifest.xml:13:13-17:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\src\main\AndroidManifest.xml:14:17-69
+25-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\src\main\AndroidManifest.xml:14:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\src\main\AndroidManifest.xml:16:17-77
+27-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\src\main\AndroidManifest.xml:16:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity android:name="com.touchsurgery.thesurgeonstodolist.activities.SettingsActivity" />
+30-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\src\main\AndroidManifest.xml:19:9-65
+30-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\src\main\AndroidManifest.xml:19:19-62
+31
+32        <provider
+32-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gokul\.gradle\caches\transforms-3\bef4bbdea89343ed8124913ac1530b57\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+33            android:name="androidx.startup.InitializationProvider"
+33-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gokul\.gradle\caches\transforms-3\bef4bbdea89343ed8124913ac1530b57\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+34            android:authorities="com.touchsurgery.thesurgeonstodolist.androidx-startup"
+34-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gokul\.gradle\caches\transforms-3\bef4bbdea89343ed8124913ac1530b57\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+35            android:exported="false" >
+35-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gokul\.gradle\caches\transforms-3\bef4bbdea89343ed8124913ac1530b57\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+36            <meta-data
+36-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gokul\.gradle\caches\transforms-3\bef4bbdea89343ed8124913ac1530b57\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+37                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+37-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gokul\.gradle\caches\transforms-3\bef4bbdea89343ed8124913ac1530b57\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+38                android:value="androidx.startup" />
+38-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gokul\.gradle\caches\transforms-3\bef4bbdea89343ed8124913ac1530b57\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+39            <meta-data
+39-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Gokul\.gradle\caches\transforms-3\c81a50c01ab0bdd6060c7a6762c3f78b\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+40                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+40-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Gokul\.gradle\caches\transforms-3\c81a50c01ab0bdd6060c7a6762c3f78b\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+41                android:value="androidx.startup" />
+41-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Gokul\.gradle\caches\transforms-3\c81a50c01ab0bdd6060c7a6762c3f78b\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+42        </provider>
+43    </application>
+44
+45</manifest>
