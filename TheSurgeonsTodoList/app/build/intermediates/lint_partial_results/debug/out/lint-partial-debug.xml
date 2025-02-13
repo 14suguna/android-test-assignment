@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.0.2" type="partial_results">
+    <map id="UnusedResources">
+        <location id="R.style.AppTheme_NoActionBar"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/styles.xml"
+            line="13"
+            column="12"
+            startOffset="490"
+            endLine="13"
+            endColumn="39"
+            endOffset="517"/>
+        <location id="R.dimen.fab_margin"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/dimens.xml"
+            line="2"
+            column="12"
+            startOffset="24"
+            endLine="2"
+            endColumn="29"
+            endOffset="41"/>
+        <entry
+            name="model"
+            string="attr[colorPrimary(R),actionBarSize(R)],color[colorPrimary(U),colorPrimaryDark(U),colorPrimaryLight(U),colorAccent(U)],dimen[fab_margin(D)],drawable[ic_plus(U),ic_launcher_foreground(U),ic_launcher_background(U),ic_launcher_foreground_1(R)],id[priorityText(D),fab(U),submitTodo(U),action_settings(U),radioGroup(U),radioSortName(U),toolbarWrapper(U),list(U),content(U),toolbar(U),switchAscending(U),priorityValue(U),todoText(U),seekBar(U),noItemsLabel(U),radioSortPriority(U)],layout[fragment_main(U),fragment_item(U),activity_main(U),activity_settings(U)],menu[menu_main(U)],mipmap[ic_launcher_round(U),ic_launcher(U)],string[add_item(U),action_settings(U),priority(U),ascending(U),no_items(U),descending(U),app_name(U),list_item(U),sort_list_priority(U),item_description(U),sort_list_name(U)],style[Theme_AppCompat_Light_DarkActionBar(R),ThemeOverlay_AppCompat_Dark_ActionBar(E),ThemeOverlay_AppCompat_Light(E),AppTheme_AppBarOverlay(D),AppTheme_PopupOverlay(D),AppTheme(U),AppTheme_NoActionBar(D)];8^a,1b^26,1c^2b^24^22,1d^0^1^4^11^7,1e^0^1^2c^2a,1f^23,20^9^8,21^9^8,30^2e,31^2f,32^2d^2^3^5,33^32;;;"/>
+        <location id="R.style.AppTheme_PopupOverlay"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/styles.xml"
+            line="20"
+            column="12"
+            startOffset="740"
+            endLine="20"
+            endColumn="40"
+            endOffset="768"/>
+        <location id="R.style.AppTheme_AppBarOverlay"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/styles.xml"
+            line="18"
+            column="12"
+            startOffset="646"
+            endLine="18"
+            endColumn="41"
+            endOffset="675"/>
+    </map>
+
+</incidents>

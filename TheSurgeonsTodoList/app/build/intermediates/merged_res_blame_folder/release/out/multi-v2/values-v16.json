@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.touchsurgery.thesurgeonstodolist.app-mergeReleaseResources-6:/values-v16/values-v16.xml",
+            "outputFile": "com.touchsurgery.thesurgeonstodolist.app-mergeReleaseResources-26:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/orlang3/.gradle/caches/transforms-3/360d1ba55a28185f41fa4b803e4a2061/transformed/support-compat-28.0.0/res/values-v16/values-v16.xml",
+                    "source": "C:\\Users\\Gokul\\.gradle\\caches\\transforms-3\\3f7edac310c0f4a0c8bd38b1cd9034f1\\transformed\\core-1.8.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/orlang3/.gradle/caches/transforms-3/3e31ad8cb90e842636398ecbf9342d2e/transformed/appcompat-v7-28.0.0/res/values-v16/values-v16.xml",
+                    "source": "C:\\Users\\Gokul\\.gradle\\caches\\transforms-3\\7df7fb79d201fe8c1d2e0f66f716d245\\transformed\\appcompat-1.5.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

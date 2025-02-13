@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.touchsurgery.thesurgeonstodolist.test">
+
+    <uses-sdk android:targetSdkVersion="33" />
+
+    <application>
+        <!-- Required for Espresso tests -->
+        <activity android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+            android:exported="true" />
+        <activity android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+            android:exported="true" />
+        <activity android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+            android:exported="true" />
+
+        <!-- Include MainActivity for testing (Removed theme reference) -->
+        <activity android:name="com.touchsurgery.thesurgeonstodolist.activities.MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

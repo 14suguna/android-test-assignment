@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.touchsurgery.thesurgeonstodolist.app-mergeReleaseResources-6:/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "com.touchsurgery.thesurgeonstodolist.app-mergeReleaseResources-26:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "/Users/orlang3/.gradle/caches/transforms-3/3e31ad8cb90e842636398ecbf9342d2e/transformed/appcompat-v7-28.0.0/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "source": "C:\\Users\\Gokul\\.gradle\\caches\\transforms-3\\7df7fb79d201fe8c1d2e0f66f716d245\\transformed\\appcompat-1.5.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

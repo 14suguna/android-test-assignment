@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.0.2" type="incidents">
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="This folder configuration (`v24`) is unnecessary; `minSdkVersion` is 27. Merge all the resources in this folder into `drawable`.">
+        <fix-data file="${:app*debug*sourceProvider*0*resDir*0}/drawable-v24" folderName="drawable" requiresApi="27"/>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable-v24"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="29"
+            column="6"
+            startOffset="1114"
+            endLine="29"
+            endColumn="75"
+            endOffset="1183"/>
+    </incident>
+
+    <incident
+        id="InefficientWeight"
+        severity="warning"
+        message="Use a `layout_height` of `0dp` instead of `wrap_content` for better performance">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_settings.xml"
+            line="35"
+            column="13"
+            startOffset="1653"
+            endLine="35"
+            endColumn="49"
+            endOffset="1689"/>
+    </incident>
+
+    <incident
+        id="UseSwitchCompatOrMaterialXml"
+        severity="warning"
+        message="Use `SwitchCompat` from AppCompat or `SwitchMaterial` from Material library">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_settings.xml"
+            line="33"
+            column="5"
+            startOffset="1583"
+            endLine="37"
+            endColumn="39"
+            endOffset="1899"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="This folder configuration (`v26`) is unnecessary; `minSdkVersion` is 27. Merge all the resources in this folder into `mipmap-anydpi`.">
+        <fix-data file="${:app*debug*sourceProvider*0*resDir*0}/mipmap-anydpi-v26" folderName="mipmap-anydpi" requiresApi="27"/>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/mipmap-anydpi-v26"/>
+    </incident>
+
+    <incident
+        id="MonochromeLauncherIcon"
+        severity="warning"
+        message="The application adaptive icon is missing a monochrome tag">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher.xml"
+            line="2"
+            column="1"
+            startOffset="40"
+            endLine="5"
+            endColumn="17"
+            endOffset="274"/>
+    </incident>
+
+    <incident
+        id="MonochromeLauncherIcon"
+        severity="warning"
+        message="The application adaptive roundIcon is missing a monochrome tag">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher_round.xml"
+            line="2"
+            column="1"
+            startOffset="40"
+            endLine="5"
+            endColumn="17"
+            endOffset="274"/>
+    </incident>
+
+    <incident
+        id="CutPasteId"
+        severity="warning"
+        message="The id `R.id.switchAscending` has already been looked up in this method; possible cut &amp; paste error?">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/touchsurgery/thesurgeonstodolist/activities/SettingsActivity.kt"
+            line="34"
+            column="9"
+            startOffset="1656"
+            endLine="34"
+            endColumn="51"
+            endOffset="1698"/>
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/touchsurgery/thesurgeonstodolist/activities/SettingsActivity.kt"
+            line="33"
+            column="9"
+            startOffset="1578"
+            endLine="33"
+            endColumn="51"
+            endOffset="1620"
+            message="First usage here"/>
+    </incident>
+
+    <incident
+        id="OldTargetApi"
+        severity="warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.">
+        <fix-replace
+            description="Update targetSdkVersion to 35"
+            oldString="33"
+            replacement="35"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="11"
+            column="9"
+            startOffset="253"
+            endLine="11"
+            endColumn="28"
+            endOffset="272"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlin:kotlin-stdlib than 1.9.0 is available: 1.9.21">
+        <fix-replace
+            description="Change to 1.9.21"
+            family="Update versions"
+            oldString="1.9.0"
+            replacement="1.9.21"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="38"
+            column="20"
+            startOffset="996"
+            endLine="38"
+            endColumn="62"
+            endOffset="1038"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.2.1">
+        <fix-replace
+            description="Change to 1.2.1"
+            family="Update versions"
+            oldString="1.1.5"
+            replacement="1.2.1"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="44"
+            column="31"
+            startOffset="1185"
+            endLine="44"
+            endColumn="62"
+            endOffset="1216"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test:runner than 1.5.2 is available: 1.6.2">
+        <fix-replace
+            description="Change to 1.6.2"
+            family="Update versions"
+            oldString="1.5.2"
+            replacement="1.6.2"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="45"
+            column="31"
+            startOffset="1248"
+            endLine="45"
+            endColumn="59"
+            endOffset="1276"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test:rules than 1.5.0 is available: 1.6.1">
+        <fix-replace
+            description="Change to 1.6.1"
+            family="Update versions"
+            oldString="1.5.0"
+            replacement="1.6.1"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="46"
+            column="31"
+            startOffset="1308"
+            endLine="46"
+            endColumn="58"
+            endOffset="1335"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.6.1">
+        <fix-replace
+            description="Change to 3.6.1"
+            family="Update versions"
+            oldString="3.5.1"
+            replacement="3.6.1"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="49"
+            column="31"
+            startOffset="1401"
+            endLine="49"
+            endColumn="75"
+            endOffset="1445"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.espresso:espresso-contrib than 3.5.1 is available: 3.6.1">
+        <fix-replace
+            description="Change to 3.6.1"
+            family="Update versions"
+            oldString="3.5.1"
+            replacement="3.6.1"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="50"
+            column="31"
+            startOffset="1477"
+            endLine="50"
+            endColumn="78"
+            endOffset="1524"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.espresso:espresso-intents than 3.5.1 is available: 3.6.1">
+        <fix-replace
+            description="Change to 3.6.1"
+            family="Update versions"
+            oldString="3.5.1"
+            replacement="3.6.1"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="51"
+            column="31"
+            startOffset="1589"
+            endLine="51"
+            endColumn="78"
+            endOffset="1636"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.dagger:dagger than 2.19 is available: 2.48">
+        <fix-replace
+            description="Change to 2.48"
+            family="Update versions"
+            oldString="2.19"
+            replacement="2.48"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="54"
+            column="20"
+            startOffset="1695"
+            endLine="54"
+            endColumn="51"
+            endOffset="1726"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.dagger:dagger-compiler than 2.19 is available: 2.48">
+        <fix-replace
+            description="Change to 2.48"
+            family="Update versions"
+            oldString="2.19"
+            replacement="2.48"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="55"
+            column="10"
+            startOffset="1737"
+            endLine="55"
+            endColumn="50"
+            endOffset="1777"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.dagger:dagger-android-processor than 2.19 is available: 2.48">
+        <fix-replace
+            description="Change to 2.48"
+            family="Update versions"
+            oldString="2.19"
+            replacement="2.48"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="56"
+            column="10"
+            startOffset="1788"
+            endLine="56"
+            endColumn="59"
+            endOffset="1837"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.9.0 is available: 1.12.0">
+        <fix-replace
+            description="Change to 1.12.0"
+            family="Update versions"
+            oldString="1.9.0"
+            replacement="1.12.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="59"
+            column="20"
+            startOffset="1895"
+            endLine="59"
+            endColumn="64"
+            endOffset="1939"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.0">
+        <fix-replace
+            description="Change to 2.2.0"
+            family="Update versions"
+            oldString="2.1.4"
+            replacement="2.2.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="62"
+            column="20"
+            startOffset="1995"
+            endLine="62"
+            endColumn="70"
+            endOffset="2045"/>
+    </incident>
+
+</incidents>

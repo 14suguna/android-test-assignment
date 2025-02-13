@@ -1,0 +1,110 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.touchsurgery.thesurgeonstodolist.test" >
+4
+5    <uses-sdk
+5-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest8155157385797947839.xml:5:5-7:41
+6        android:minSdkVersion="27"
+6-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest8155157385797947839.xml:6:9-35
+7        android:targetSdkVersion="33" />
+7-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest8155157385797947839.xml:7:9-38
+8
+9    <instrumentation
+9-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest8155157385797947839.xml:9:5-14:72
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest8155157385797947839.xml:10:9-63
+11        android:functionalTest="false"
+11-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest8155157385797947839.xml:11:9-39
+12        android:handleProfiling="false"
+12-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest8155157385797947839.xml:12:9-40
+13        android:label="Tests for com.touchsurgery.thesurgeonstodolist"
+13-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest8155157385797947839.xml:13:9-71
+14        android:targetPackage="com.touchsurgery.thesurgeonstodolist" />
+14-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest8155157385797947839.xml:14:9-69
+15
+16    <queries>
+16-->[androidx.test:runner:1.5.2] C:\Users\Gokul\.gradle\caches\transforms-3\68b568ea3bf17c4dfaba6f4244ad6e0b\transformed\runner-1.5.2\AndroidManifest.xml:24:5-28:15
+17        <package android:name="androidx.test.orchestrator" />
+17-->[androidx.test:runner:1.5.2] C:\Users\Gokul\.gradle\caches\transforms-3\68b568ea3bf17c4dfaba6f4244ad6e0b\transformed\runner-1.5.2\AndroidManifest.xml:25:9-62
+17-->[androidx.test:runner:1.5.2] C:\Users\Gokul\.gradle\caches\transforms-3\68b568ea3bf17c4dfaba6f4244ad6e0b\transformed\runner-1.5.2\AndroidManifest.xml:25:18-59
+18        <package android:name="androidx.test.services" />
+18-->[androidx.test:runner:1.5.2] C:\Users\Gokul\.gradle\caches\transforms-3\68b568ea3bf17c4dfaba6f4244ad6e0b\transformed\runner-1.5.2\AndroidManifest.xml:26:9-58
+18-->[androidx.test:runner:1.5.2] C:\Users\Gokul\.gradle\caches\transforms-3\68b568ea3bf17c4dfaba6f4244ad6e0b\transformed\runner-1.5.2\AndroidManifest.xml:26:18-55
+19        <package android:name="com.google.android.apps.common.testing.services" />
+19-->[androidx.test:runner:1.5.2] C:\Users\Gokul\.gradle\caches\transforms-3\68b568ea3bf17c4dfaba6f4244ad6e0b\transformed\runner-1.5.2\AndroidManifest.xml:27:9-83
+19-->[androidx.test:runner:1.5.2] C:\Users\Gokul\.gradle\caches\transforms-3\68b568ea3bf17c4dfaba6f4244ad6e0b\transformed\runner-1.5.2\AndroidManifest.xml:27:18-80
+20    </queries>
+21
+22    <uses-permission android:name="android.permission.REORDER_TASKS" />
+22-->[androidx.test:core:1.5.0] C:\Users\Gokul\.gradle\caches\transforms-3\6884834342b64a11551328f165062822\transformed\jetified-core-1.5.0\AndroidManifest.xml:24:5-72
+22-->[androidx.test:core:1.5.0] C:\Users\Gokul\.gradle\caches\transforms-3\6884834342b64a11551328f165062822\transformed\jetified-core-1.5.0\AndroidManifest.xml:24:22-69
+23
+24    <application
+24-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest8155157385797947839.xml:16:5-35:19
+25        android:debuggable="true"
+26        android:extractNativeLibs="false" >
+27
+28        <!-- Required for Espresso tests -->
+29        <activity
+29-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest8155157385797947839.xml:19:9-21:39
+30            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+30-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest8155157385797947839.xml:20:13-99
+31            android:exported="true"
+31-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest8155157385797947839.xml:21:13-36
+32            android:theme="@style/WhiteBackgroundTheme" >
+32-->[androidx.test:core:1.5.0] C:\Users\Gokul\.gradle\caches\transforms-3\6884834342b64a11551328f165062822\transformed\jetified-core-1.5.0\AndroidManifest.xml:30:13-56
+33            <intent-filter android:priority="-100" >
+33-->[androidx.test:core:1.5.0] C:\Users\Gokul\.gradle\caches\transforms-3\6884834342b64a11551328f165062822\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:13-33:29
+33-->[androidx.test:core:1.5.0] C:\Users\Gokul\.gradle\caches\transforms-3\6884834342b64a11551328f165062822\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:28-51
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->[androidx.test:core:1.5.0] C:\Users\Gokul\.gradle\caches\transforms-3\6884834342b64a11551328f165062822\transformed\jetified-core-1.5.0\AndroidManifest.xml:32:17-77
+34-->[androidx.test:core:1.5.0] C:\Users\Gokul\.gradle\caches\transforms-3\6884834342b64a11551328f165062822\transformed\jetified-core-1.5.0\AndroidManifest.xml:32:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest8155157385797947839.xml:22:9-24:39
+38            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+38-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest8155157385797947839.xml:23:13-95
+39            android:exported="true"
+39-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest8155157385797947839.xml:24:13-36
+40            android:theme="@style/WhiteBackgroundTheme" >
+40-->[androidx.test:core:1.5.0] C:\Users\Gokul\.gradle\caches\transforms-3\6884834342b64a11551328f165062822\transformed\jetified-core-1.5.0\AndroidManifest.xml:38:13-56
+41            <intent-filter android:priority="-100" >
+41-->[androidx.test:core:1.5.0] C:\Users\Gokul\.gradle\caches\transforms-3\6884834342b64a11551328f165062822\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:13-33:29
+41-->[androidx.test:core:1.5.0] C:\Users\Gokul\.gradle\caches\transforms-3\6884834342b64a11551328f165062822\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:28-51
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->[androidx.test:core:1.5.0] C:\Users\Gokul\.gradle\caches\transforms-3\6884834342b64a11551328f165062822\transformed\jetified-core-1.5.0\AndroidManifest.xml:32:17-77
+42-->[androidx.test:core:1.5.0] C:\Users\Gokul\.gradle\caches\transforms-3\6884834342b64a11551328f165062822\transformed\jetified-core-1.5.0\AndroidManifest.xml:32:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest8155157385797947839.xml:25:9-27:39
+46            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+46-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest8155157385797947839.xml:26:13-103
+47            android:exported="true"
+47-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest8155157385797947839.xml:27:13-36
+48            android:theme="@style/WhiteBackgroundDialogTheme" >
+48-->[androidx.test:core:1.5.0] C:\Users\Gokul\.gradle\caches\transforms-3\6884834342b64a11551328f165062822\transformed\jetified-core-1.5.0\AndroidManifest.xml:46:13-62
+49            <intent-filter android:priority="-100" >
+49-->[androidx.test:core:1.5.0] C:\Users\Gokul\.gradle\caches\transforms-3\6884834342b64a11551328f165062822\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:13-33:29
+49-->[androidx.test:core:1.5.0] C:\Users\Gokul\.gradle\caches\transforms-3\6884834342b64a11551328f165062822\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:28-51
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->[androidx.test:core:1.5.0] C:\Users\Gokul\.gradle\caches\transforms-3\6884834342b64a11551328f165062822\transformed\jetified-core-1.5.0\AndroidManifest.xml:32:17-77
+50-->[androidx.test:core:1.5.0] C:\Users\Gokul\.gradle\caches\transforms-3\6884834342b64a11551328f165062822\transformed\jetified-core-1.5.0\AndroidManifest.xml:32:27-74
+51            </intent-filter>
+52        </activity>
+53
+54        <!-- Include MainActivity for testing (Removed theme reference) -->
+55        <activity
+55-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest8155157385797947839.xml:30:9-32:39
+56            android:name="com.touchsurgery.thesurgeonstodolist.activities.MainActivity"
+56-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest8155157385797947839.xml:31:13-88
+57            android:exported="true" />
+57-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest8155157385797947839.xml:32:13-36
+58
+59        <uses-library android:name="android.test.runner" />
+59-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest8155157385797947839.xml:34:9-60
+59-->C:\Users\Gokul\Medtronics_studio\TheSurgeonsTodoList\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest8155157385797947839.xml:34:23-57
+60    </application>
+61
+62</manifest>

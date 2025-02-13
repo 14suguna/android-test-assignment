@@ -1,0 +1,140 @@
+02-13 16:05:09.691  8064  8088 I TestRunner: started: testAddTasksWithPriorities(com.touchsurgery.thesurgeonstodolist.TodoListPriorityTest)
+02-13 16:05:09.709  8064  8088 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+02-13 16:05:09.938  8118  8125 I zygote  : Ignoring second debugger -- accepting and dropping
+02-13 16:05:10.156  1449  1449 W SurfaceFlinger: couldn't log to binary event log: overflow.
+02-13 16:05:10.172  1439  1487 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+02-13 16:05:10.177  8118  8142 D         : HostConnection::get() New Host Connection established 0xa6a313c0, tid 8142
+02-13 16:05:10.213  1431  4525 W audio_hw_generic: Not supplying enough data to HAL, expected position 14850737 , only wrote 14850720
+02-13 16:05:10.213  1431  4525 W audio_hw_generic: Not supplying enough data to HAL, expected position 14850734 , only wrote 14850720
+02-13 16:05:10.214  1439  1487 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+02-13 16:05:10.238  8064  8071 I zygote  : Ignoring second debugger -- accepting and dropping
+02-13 16:05:10.276  1439  1439 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+02-13 16:05:10.284  8118  8142 I zygote  : android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+02-13 16:05:10.284  8118  8142 I OpenGLRenderer: Initialized EGL, version 1.4
+02-13 16:05:10.284  8118  8142 D OpenGLRenderer: Swap behavior 1
+02-13 16:05:10.288  8118  8142 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+02-13 16:05:10.289  8118  8142 D OpenGLRenderer: Swap behavior 0
+02-13 16:05:10.348  8118  8142 D EGL_emulation: eglCreateContext: 0xa97852a0: maj 3 min 1 rcv 4
+02-13 16:05:10.356  8118  8142 D EGL_emulation: eglMakeCurrent: 0xa97852a0: ver 3 1 (tinfo 0xa9783200)
+02-13 16:05:10.357  1638  1647 I zygote  : NativeAlloc concurrent copying GC freed 2727(246KB) AllocSpace objects, 1(20KB) LOS objects, 36% free, 10MB/16MB, paused 1.796ms total 100.898ms
+02-13 16:05:10.362  8118  8142 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+02-13 16:05:10.362  8118  8142 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+02-13 16:05:10.372  1449  1463 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+02-13 16:05:10.397  1439  1439 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+02-13 16:05:10.420  8064  8064 D LifecycleMonitor: Lifecycle status change: com.touchsurgery.thesurgeonstodolist.activities.MainActivity@15f0e33 in: PRE_ON_CREATE
+02-13 16:05:10.421  8064  8064 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+02-13 16:05:10.504  8064  8064 D LifecycleMonitor: Lifecycle status change: com.touchsurgery.thesurgeonstodolist.activities.MainActivity@15f0e33 in: CREATED
+02-13 16:05:10.504  8064  8064 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.touchsurgery.thesurgeonstodolist.activities.MainActivity@15f0e33
+02-13 16:05:10.548  8118  8142 D EGL_emulation: eglMakeCurrent: 0xa97852a0: ver 3 1 (tinfo 0xa9783200)
+02-13 16:05:10.565  8064  8064 D LifecycleMonitor: Lifecycle status change: com.touchsurgery.thesurgeonstodolist.activities.MainActivity@15f0e33 in: STARTED
+02-13 16:05:10.565  8064  8064 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.touchsurgery.thesurgeonstodolist.activities.MainActivity@15f0e33
+02-13 16:05:10.573  8064  8064 D LifecycleMonitor: Lifecycle status change: com.touchsurgery.thesurgeonstodolist.activities.MainActivity@15f0e33 in: RESUMED
+02-13 16:05:10.574  8064  8064 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.touchsurgery.thesurgeonstodolist.activities.MainActivity@15f0e33
+02-13 16:05:10.690  1439  1439 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+02-13 16:05:10.702  1439  1439 I chatty  : uid=1000(system) allocator@2.0-s identical 1 line
+02-13 16:05:10.716  1439  1439 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+02-13 16:05:10.716  8118  8142 D EGL_emulation: eglMakeCurrent: 0xa97852a0: ver 3 1 (tinfo 0xa9783200)
+02-13 16:05:10.839  8064  8093 D EGL_emulation: eglMakeCurrent: 0xa97850c0: ver 3 1 (tinfo 0xa97831a0)
+02-13 16:05:10.854  1638  1659 I ActivityManager: Displayed com.touchsurgery.thesurgeonstodolist/.activities.MainActivity: +629ms (total +1s450ms)
+02-13 16:05:10.910  1638  1651 E memtrack: Couldn't load memtrack module
+02-13 16:05:10.910  1638  1651 W android.os.Debug: failed to get memory consumption info: -1
+02-13 16:05:10.961  8064  8088 D TodoListPriorityTest: Initial Task List: [Item(priority=5, text=Treat patients), Item(priority=10, text=Try those amazing surgery mobile apps)]
+02-13 16:05:10.970  8064  8064 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230902/com.touchsurgery.thesurgeonstodolist:id/fab>
+02-13 16:05:11.478  8064  8064 I ViewInteraction: Performing 'type text(Task A)' action on view view.getId() is <2131231190/com.touchsurgery.thesurgeonstodolist:id/todoText>
+02-13 16:05:11.553  1638  3644 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+02-13 16:05:11.553  1638  3644 W Binder  : java.lang.Throwable
+02-13 16:05:11.553  1638  3644 W Binder  : 	at android.os.BinderProxy.transact(Binder.java:752)
+02-13 16:05:11.553  1638  3644 W Binder  : 	at android.app.assist.AssistStructure$ParcelTransferReader.fetchData(AssistStructure.java:407)
+02-13 16:05:11.553  1638  3644 W Binder  : 	at android.app.assist.AssistStructure$ParcelTransferReader.go(AssistStructure.java:343)
+02-13 16:05:11.553  1638  3644 W Binder  : 	at android.app.assist.AssistStructure.ensureData(AssistStructure.java:2110)
+02-13 16:05:11.553  1638  3644 W Binder  : 	at com.android.server.autofill.Session$1.send(Session.java:227)
+02-13 16:05:11.553  1638  3644 W Binder  : 	at com.android.server.am.ActivityManagerService.reportAssistContextExtras(ActivityManagerService.java:13272)
+02-13 16:05:11.553  1638  3644 W Binder  : 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2472)
+02-13 16:05:11.553  1638  3644 W Binder  : 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2919)
+02-13 16:05:11.553  1638  3644 W Binder  : 	at android.os.Binder.execTransact(Binder.java:697)
+02-13 16:05:11.559  8064  8064 I AssistStructure: Flattened final assist data: 3212 bytes, containing 1 windows, 12 views
+02-13 16:05:11.584  1638  1765 I AssistStructure: Flattened final assist data: 3040 bytes, containing 1 windows, 12 views
+02-13 16:05:11.585  1732  7738 I native  : neural_language_identifier.cc:337 Portable Language Identification module loaded successfully.
+02-13 16:05:11.596  1732  1732 W GInputConnectionWrapper: Fixing selection indices to 0, 0
+02-13 16:05:11.602  1997  2016 I zygote  : Waiting for a blocking GC ProfileSaver
+02-13 16:05:11.654  1439  1439 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9568256
+02-13 16:05:11.673  1439  1439 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9568256
+02-13 16:05:11.684  1439  1487 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9568256
+02-13 16:05:11.696  1997  2007 I zygote  : Background concurrent copying GC freed 96271(5MB) AllocSpace objects, 2(148KB) LOS objects, 37% free, 9MB/15MB, paused 1.055ms total 120.367ms
+02-13 16:05:11.703  1997  2016 I zygote  : WaitForGcToComplete blocked ProfileSaver on ProfileSaver for 100.390ms
+02-13 16:05:11.740  1732  4537 D EGL_emulation: eglMakeCurrent: 0x93b3f120: ver 3 1 (tinfo 0x934e8e70)
+02-13 16:05:11.800  8064  8064 D UiControllerImpl: Injecting string: "Task A"
+02-13 16:05:11.961  8118  8125 I zygote  : Ignoring second debugger -- accepting and dropping
+02-13 16:05:12.147  8064  8064 I ViewInteraction: Performing 'close keyboard' action on view view.getId() is <2131231190/com.touchsurgery.thesurgeonstodolist:id/todoText>
+02-13 16:05:12.149  8064  8064 D IdlingRegistry: Registering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@393b8f0]
+02-13 16:05:12.174  1732  4537 D EGL_emulation: eglMakeCurrent: 0x93b3f120: ver 3 1 (tinfo 0x934e8e70)
+02-13 16:05:12.254  8064  8071 I zygote  : Ignoring second debugger -- accepting and dropping
+02-13 16:05:12.481  8064  8064 D IdlingRegistry: Unregistering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@393b8f0]
+02-13 16:05:12.486  8064  8064 I ViewInteraction: Performing 'Set SeekBar progress to: 9' action on view view.getId() is <2131231112/com.touchsurgery.thesurgeonstodolist:id/seekBar>
+02-13 16:05:12.498  8064  8064 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231152/com.touchsurgery.thesurgeonstodolist:id/submitTodo>
+02-13 16:05:12.890  8064  8064 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230902/com.touchsurgery.thesurgeonstodolist:id/fab>
+02-13 16:05:13.298  8064  8064 I ViewInteraction: Performing 'type text(Task B)' action on view view.getId() is <2131231190/com.touchsurgery.thesurgeonstodolist:id/todoText>
+02-13 16:05:13.377  1732  1732 W GInputConnectionWrapper: Fixing selection indices to 0, 0
+02-13 16:05:13.415  1439  1487 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9568256
+02-13 16:05:13.425  1439  1487 I chatty  : uid=1000(system) HwBinder:1439_1 identical 1 line
+02-13 16:05:13.432  1439  1487 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9568256
+02-13 16:05:13.491  1732  4537 D EGL_emulation: eglMakeCurrent: 0x93b3f120: ver 3 1 (tinfo 0x934e8e70)
+02-13 16:05:13.593  8064  8064 D UiControllerImpl: Injecting string: "Task B"
+02-13 16:05:13.629  1732  1732 I native  : input-context-store.cc:113 Using roll back input context operation: [DecodeTouch] reason: client [2764] vs decoder [2765]
+02-13 16:05:13.712  1638  1655 I WifiService: requestActivityInfo uid=1000
+02-13 16:05:13.712  1638  1655 I WifiService: reportActivityInfo uid=1000
+02-13 16:05:13.712  1638  1655 I WifiService: getSupportedFeatures uid=1000
+02-13 16:05:13.864  1732  1732 I native  : input-context-store.cc:113 Using roll back input context operation: [DecodeTouch] reason: client [2775] vs decoder [2776]
+02-13 16:05:13.922  8064  8064 I ViewInteraction: Performing 'close keyboard' action on view view.getId() is <2131231190/com.touchsurgery.thesurgeonstodolist:id/todoText>
+02-13 16:05:13.923  8064  8064 D IdlingRegistry: Registering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@5827527]
+02-13 16:05:13.942  1732  4537 D EGL_emulation: eglMakeCurrent: 0x93b3f120: ver 3 1 (tinfo 0x934e8e70)
+02-13 16:05:13.981  8118  8125 I zygote  : Ignoring second debugger -- accepting and dropping
+02-13 16:05:14.255  8064  8064 D IdlingRegistry: Unregistering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@5827527]
+02-13 16:05:14.258  8064  8064 I ViewInteraction: Performing 'Set SeekBar progress to: 5' action on view view.getId() is <2131231112/com.touchsurgery.thesurgeonstodolist:id/seekBar>
+02-13 16:05:14.268  8064  8064 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231152/com.touchsurgery.thesurgeonstodolist:id/submitTodo>
+02-13 16:05:14.275  8064  8071 I zygote  : Ignoring second debugger -- accepting and dropping
+02-13 16:05:14.581  8064  8064 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230902/com.touchsurgery.thesurgeonstodolist:id/fab>
+02-13 16:05:14.893  8064  8064 I ViewInteraction: Performing 'type text(Task C)' action on view view.getId() is <2131231190/com.touchsurgery.thesurgeonstodolist:id/todoText>
+02-13 16:05:14.979  1732  1732 W GInputConnectionWrapper: Fixing selection indices to 0, 0
+02-13 16:05:15.015  1439  1487 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9568256
+02-13 16:05:15.027  1439  1487 I chatty  : uid=1000(system) HwBinder:1439_1 identical 1 line
+02-13 16:05:15.042  1439  1487 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9568256
+02-13 16:05:15.086  1732  4537 D EGL_emulation: eglMakeCurrent: 0x93b3f120: ver 3 1 (tinfo 0x934e8e70)
+02-13 16:05:15.115  1638  1651 E memtrack: Couldn't load memtrack module
+02-13 16:05:15.115  1638  1651 W android.os.Debug: failed to get memory consumption info: -1
+02-13 16:05:15.188  8064  8064 D UiControllerImpl: Injecting string: "Task C"
+02-13 16:05:15.519  8064  8064 I ViewInteraction: Performing 'close keyboard' action on view view.getId() is <2131231190/com.touchsurgery.thesurgeonstodolist:id/todoText>
+02-13 16:05:15.520  8064  8064 D IdlingRegistry: Registering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@ef11fbf]
+02-13 16:05:15.551  1732  4537 D EGL_emulation: eglMakeCurrent: 0x93b3f120: ver 3 1 (tinfo 0x934e8e70)
+02-13 16:05:15.853  8064  8064 D IdlingRegistry: Unregistering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@ef11fbf]
+02-13 16:05:15.857  8064  8064 I ViewInteraction: Performing 'Set SeekBar progress to: 1' action on view view.getId() is <2131231112/com.touchsurgery.thesurgeonstodolist:id/seekBar>
+02-13 16:05:15.867  8064  8064 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231152/com.touchsurgery.thesurgeonstodolist:id/submitTodo>
+02-13 16:05:15.998  8118  8125 I zygote  : Ignoring second debugger -- accepting and dropping
+02-13 16:05:16.204  8064  8088 D TodoListPriorityTest: Updated Task List: [Item(priority=1, text=Task C), Item(priority=5, text=Treat patients), Item(priority=5, text=Task B), Item(priority=9, text=Task A), Item(priority=10, text=Try those amazing surgery mobile apps)]
+02-13 16:05:16.210  8064  8064 D LifecycleMonitor: Lifecycle status change: com.touchsurgery.thesurgeonstodolist.activities.MainActivity@15f0e33 in: PAUSED
+02-13 16:05:16.210  8064  8064 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.touchsurgery.thesurgeonstodolist.activities.MainActivity@15f0e33
+02-13 16:05:16.255  1439  1487 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+02-13 16:05:16.264  1439  1487 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+02-13 16:05:16.279  1449  1449 D SurfaceFlinger: duplicate layer name: changing com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity to com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#1
+02-13 16:05:16.281  1439  1439 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+02-13 16:05:16.287  1439  1487 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+02-13 16:05:16.291  8064  8071 I zygote  : Ignoring second debugger -- accepting and dropping
+02-13 16:05:16.327  1439  1487 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+02-13 16:05:16.363  1439  1439 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+02-13 16:05:16.432  2270  2474 D EGL_emulation: eglMakeCurrent: 0xb18302c0: ver 3 1 (tinfo 0x8a961ca0)
+02-13 16:05:16.488  1439  1439 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+02-13 16:05:16.500  2177  2301 D EGL_emulation: eglMakeCurrent: 0x957a6440: ver 3 1 (tinfo 0xb1833410)
+02-13 16:05:16.654  1439  1439 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+02-13 16:05:16.755  1439  1487 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+02-13 16:05:16.814  1745  1959 D EGL_emulation: eglMakeCurrent: 0xa9785840: ver 3 1 (tinfo 0xa9783430)
+02-13 16:05:16.814  1439  1487 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+02-13 16:05:16.844  1745  1959 D EGL_emulation: eglMakeCurrent: 0xa9785840: ver 3 1 (tinfo 0xa9783430)
+02-13 16:05:16.998  2177  2301 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+02-13 16:05:17.098  8064  8093 D EGL_emulation: eglMakeCurrent: 0xa97850c0: ver 3 1 (tinfo 0xa97831a0)
+02-13 16:05:17.104  1439  1487 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+02-13 16:05:17.129  1638  1652 D         : HostConnection::get() New Host Connection established 0x91bd44c0, tid 1652
+02-13 16:05:17.248  8064  8064 D LifecycleMonitor: Lifecycle status change: com.touchsurgery.thesurgeonstodolist.activities.MainActivity@15f0e33 in: STOPPED
+02-13 16:05:17.248  8064  8064 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.touchsurgery.thesurgeonstodolist.activities.MainActivity@15f0e33
+02-13 16:05:17.264  8064  8064 D LifecycleMonitor: Lifecycle status change: com.touchsurgery.thesurgeonstodolist.activities.MainActivity@15f0e33 in: DESTROYED
+02-13 16:05:17.265  8064  8064 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+02-13 16:05:17.267  8064  8088 I TestRunner: finished: testAddTasksWithPriorities(com.touchsurgery.thesurgeonstodolist.TodoListPriorityTest)
